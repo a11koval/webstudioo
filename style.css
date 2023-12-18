@@ -1,0 +1,60 @@
+span{
+    color: #2196F3;
+    font-size: 31px;
+}
+a[href^="index.html"]{
+    color: #2196F3;
+}
+#hero{
+    background-color: #2F303A;
+}
+h1{
+    color: #FFFFFF;
+}
+section button{
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+h4{
+    color: #212121;
+}
+h4 + p{
+    color: #757575;
+}
+.work-title{
+    color: #212121;
+}
+.team{
+    background-color: #F5F4FA;
+}
+.photo{
+    height: 260px;
+    width: 270px;   
+}
+div + h3{
+    color: #212121;
+}
+h3 + p{
+    color: #757575;
+}
+.list-item{
+    border: #FFFFFF;
+}
+footer{
+    background-color: #2F303A;
+}
+.location{
+    color: #FFFFFF;
+}
+.mail{
+    color: #757575;
+} 
+.number{
+    color: #757575;
+}
+.header{
+    background-color: #ECECEC;
+}
+.sub-hero{
+    background-color: #EEEEEE;
+}
