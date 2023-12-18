@@ -58,3 +58,13 @@ footer{
 .sub-hero{
     background-color: #EEEEEE;
 }
+:root{
+    --color: #2196F3;
+   --color: #2F303A; 
+    --color:#FFFFFF;
+    --color: #212121;
+    --color:#757575;
+    --color: #F5F4FA;
+    --color:#ECECEC ;
+    --color: #EEEEEE;
+}
