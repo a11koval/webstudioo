@@ -59,12 +59,12 @@ footer{
     background-color: #EEEEEE;
 }
 :root{
-    --color: #2196F3;
-   --color: #2F303A; 
-    --color:#FFFFFF;
-    --color: #212121;
-    --color:#757575;
-    --color: #F5F4FA;
-    --color:#ECECEC ;
-    --color: #EEEEEE;
+    --logo-color: #2196F3;
+   --main-background-color: #2F303A; 
+    --font-color:#FFFFFF;
+    --title-color: #212121;
+    --nav-color:#757575;
+    --team-background-color: #F5F4FA;
+    --header-background-color:#ECECEC ;
+    --sub-hero-backgroundcolor: #EEEEEE;
 }
