@@ -15,6 +15,11 @@ body{
     font-weight: 400;
 
 }
+.container{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
 .logo{
     font-family: 'Raleway', sans-serif;
     font-size: 26px;
@@ -41,6 +46,8 @@ body{
 }
 .hero{
     background-color: var(--main-background-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .hero-title{
     text-align: center;
@@ -60,6 +67,10 @@ body{
     border-radius: 4px;
     background-color: var(--logo-color);
 }
+.info{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
 .list-title{
     font-size: 14px;
     font-weight: 700;
@@ -73,6 +84,10 @@ body{
     line-height:171.429%;
     letter-spacing: 0.42px;
 color: var(--nav-color);
+}
+.work{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .title{
     text-align: center;
@@ -91,6 +106,8 @@ height: 294px;
 }
 .team{
  background-color: var(--team-background-color);
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .team-list{
     list-style: none;
@@ -98,6 +115,8 @@ height: 294px;
 .photo{
     width: 270px;
 height: 260px;
+display: block;
+
 }
 .team-name{
     color: var(--title-color);
