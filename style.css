@@ -71,6 +71,7 @@ body{
 }
 .info-list{
  padding: 94px 0;
+ display: flex;
 }
 .info-item{
     margin: 0 30px;
