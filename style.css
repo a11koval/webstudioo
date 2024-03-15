@@ -233,7 +233,8 @@ display: block;
     list-style: none;
     display: flex;
     justify-content: center;
-   
+    max-width: 1200px;
+    
 }
 .sub-hero-btn{
     font-size: 16px;
@@ -257,6 +258,9 @@ display: block;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    max-width: 1200px;
+    gap: 10px;
+    padding: 0;
   
 }
 .sub-hero-list-img-item{
@@ -265,6 +269,7 @@ display: block;
 .sub-hero-list-img-item{
     border: 1px solid #EEEEEE;
     margin-bottom: 30px;
+    flex-basis: calc((100% - 30px) / 3);
 }
 .border{
     padding: 0 17px;
