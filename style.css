@@ -9,6 +9,10 @@
     --header-background-color:#ECECEC ;
     --sub-hero-backgroundcolor: #EEEEEE;
 }
+*{
+    box-sizing: border-box;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -253,13 +257,13 @@ display: block;
     letter-spacing: 1.08px;
     color: var(--title-color);
 }
-.sub-hero-list-img:not(:nth-child(3n)){
+.sub-hero-list-img{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    
     max-width: 1200px;
-    gap: 10px;
+    gap: 30px;
     padding: 0;
   
 }
@@ -267,9 +271,9 @@ display: block;
 
 }
 .sub-hero-list-img-item{
-    border: 1px solid #EEEEEE;
-    margin-bottom: 30px;
-    flex-basis: calc((100% - 30px) / 3);
+    
+    
+    flex-basis: calc((100% - 60px) / 3);
 }
 .border{
     padding: 0 17px;
@@ -280,4 +284,7 @@ display: block;
     font-weight: 400;
     line-height: 187.5%;
     letter-spacing: 0.48px;
+}
+img{
+    width: 100%;
 }
