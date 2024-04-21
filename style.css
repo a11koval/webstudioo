@@ -89,8 +89,7 @@ body{
     background-color: var(--main-background-color);
     padding: 200px 0;
     background-image: url(img/Img.png);
-    width: 1600px;
-    height: 600px;
+    background-size: cover;
     opacity: 0.9;
 }
 .hero-title{
@@ -125,7 +124,7 @@ body{
 }
 
 .list-item:nth-child(1)::before{
-    content: url("../img/antenna\ 1.svg");
+    content: url("img/antenna\ 1.svg");
    display: flex;
     width: 270px;
     height: 120px;
@@ -134,7 +133,7 @@ body{
     align-items: center;
 }
 .list-item:nth-child(2)::before{
-    content: url("../img/clock\ 1.svg");
+    content: url("img/clock\ 1.svg");
    display: flex;
     width: 270px;
     height: 120px;
@@ -143,7 +142,7 @@ body{
     align-items: center;
 }
 .list-item:nth-child(3)::before{
-    content: url("../img/diagram\ 1.svg");
+    content: url("img/diagram\ 1.svg");
    display: flex;
     width: 270px;
     height: 120px;
@@ -152,7 +151,7 @@ body{
     align-items: center;
 }
 .list-item:nth-child(4)::before{
-    content: url("../img/astronaut\ 1.svg");
+    content: url("img/astronaut\ 1.svg");
    display: flex;
     width: 270px;
     height: 120px;
@@ -205,7 +204,7 @@ margin-right: 24px;
 }
 .team{
  background-color: var(--team-background-color);
-    padding: 94px;
+    padding: 74px 0;
 }
 .team-list{
     list-style: none;
@@ -310,7 +309,7 @@ display: block;
   
 }
 .sub-hero-list-img-item{
-
+outline: var(--sub-hero-backgroundcolor) 0.5px solid;
 }
 .sub-hero-list-img-item{
     
