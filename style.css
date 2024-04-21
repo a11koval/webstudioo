@@ -212,9 +212,11 @@ margin-right: 24px;
     display: flex;
     justify-content: space-between;
 }
-.list-item{
+.team-list-item{
     width: 270px;
     background-color: var(--font-color);
+    -webkit-box-shadow: 5px 12px 15px -10px rgba(0,0,0,0.86); 
+box-shadow: 5px 12px 15px -10px rgba(0,0,0,0.86);
 }
 .team-wrap{
     text-align: center;
@@ -281,6 +283,11 @@ display: block;
     max-width: 1200px;
     
 }
+.sub-hero-btn:hover{
+    background-color: var(--logo-color);
+    -webkit-box-shadow: 5px 12px 15px -10px rgba(0,0,0,0.86); 
+box-shadow: 5px 12px 15px -10px rgba(0,0,0,0.86);
+}
 .sub-hero-btn{
     font-size: 16px;
     color: var(--title-color);
@@ -290,6 +297,8 @@ display: block;
     border: none;
     margin-right: 8px;
     padding: 10px;
+    border-radius: 3px;
+
 }
 .sub-hero-title{
     font-size: 18px;
@@ -308,11 +317,12 @@ display: block;
     padding: 0;
   
 }
-.sub-hero-list-img-item{
-outline: var(--sub-hero-backgroundcolor) 0.5px solid;
+.sub-hero-list-img-item:hover{
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 0px 8px 12px -5px rgba(0,0,0,0); 
+    box-shadow: 0px 10px 13px -7px #000000, 0px 8px 12px -5px rgba(0,0,0,0);
 }
 .sub-hero-list-img-item{
-    
+    outline: var(--sub-hero-backgroundcolor) 0.5px solid;
     
     flex-basis: calc((100% - 60px) / 3);
 }
