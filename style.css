@@ -125,7 +125,7 @@ body{
 }
 
 .list-item:nth-child(1)::before{
-    content: url("/img/antenna\ 1.svg");
+    content: url("../img/antenna\ 1.svg");
    display: flex;
     width: 270px;
     height: 120px;
@@ -134,7 +134,7 @@ body{
     align-items: center;
 }
 .list-item:nth-child(2)::before{
-    content: url("/img/clock\ 1.svg");
+    content: url("../img/clock\ 1.svg");
    display: flex;
     width: 270px;
     height: 120px;
@@ -143,7 +143,7 @@ body{
     align-items: center;
 }
 .list-item:nth-child(3)::before{
-    content: url("/img/diagram\ 1.svg");
+    content: url("../img/diagram\ 1.svg");
    display: flex;
     width: 270px;
     height: 120px;
@@ -152,7 +152,7 @@ body{
     align-items: center;
 }
 .list-item:nth-child(4)::before{
-    content: url("/img/astronaut\ 1.svg");
+    content: url("../img/astronaut\ 1.svg");
    display: flex;
     width: 270px;
     height: 120px;
