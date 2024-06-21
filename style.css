@@ -91,6 +91,7 @@ body{
     background-image: url(img/Img.png);
     background-size: cover;
     opacity: 0.9;
+    background-image: radial-gradient();
 }
 .hero-title{
     text-align: center;
@@ -201,6 +202,30 @@ color: var(--nav-color);
 height: 294px;
 padding: 10px 0;
 margin-right: 24px;
+
+display: block;
+object-fit: cover;
+}
+.thumb{
+    width: 370px;
+  
+    
+    
+    position: relative;
+    
+}
+.thumb p{
+    position: absolute;
+    bottom: 0;
+    padding: 20px;
+    background-image: url(img/bg.png);
+    width: 100%;
+    
+    text-align: center;
+    
+    color: var(--font-color);
+    letter-spacing: 3%;
+    font-size: 14px;
 }
 .team{
  background-color: var(--team-background-color);
@@ -238,6 +263,45 @@ display: block;
     font-weight: 400;
     letter-spacing: 0.48px;
 }
+.social-icon-list{
+    list-style: none;
+    display: flex;
+}
+.social-icon-list-item{
+    padding-right: 30px;
+    padding-bottom: 20px;
+}
+.social-icon-list-item svg:hover{
+    fill: #2196F3;
+}
+.title-clients{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.08px;
+    color: var(--title-color);
+    margin-bottom: 50px;
+    padding-top: 94px;
+}
+.clients-list{
+    list-style: none;
+    display: flex;
+}
+.clients-list-item{
+    gap: 30px;
+    justify-content: space-between;
+    display: flex;
+    padding-right: 30px;
+    width: 100%;
+}
+.item-svg{
+    border: 1px solid rgba(175, 177, 184, 1)
+}
+.item-svg:hover{
+    border: 1px solid rgba(33, 150, 243, 1);
+    fill: #2196F3;
+}
+
 .footer{
     background-color: var(--main-background-color);
     padding: 60px 0;
