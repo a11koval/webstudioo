@@ -93,7 +93,24 @@ body {
     color: var(--nav-color);
     text-decoration: none;
 }
-
+.icon-header-mail{
+    fill: #757575;
+    width: 16px;
+    height: 12px;
+    padding-right: 10px;
+}
+.icon-header-mail:hover{
+    fill: #2196F3;
+}
+.icon-header{
+    fill: #757575;
+    width: 10px;
+    height: 16px;
+    padding-right: 10px;
+}
+.icon-header:hover{
+    fill: var(--logo-color);
+}
 .contacts-link:hover,
 .contacts-link:focus {
     color: var(--logo-color);
@@ -714,6 +731,12 @@ figure.our-team-item {
     border-radius: 5px;
     display: flex;
     justify-content: center;
+}
+.footer-btn-icon{
+    margin-left: 10px;
+    fill: #FFFFFF;
+    width: 24px;
+    height: 24px;
 }
 
 
