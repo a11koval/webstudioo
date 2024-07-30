@@ -621,6 +621,17 @@ figure.our-team-item {
 .item-svg:hover {
     border: 1px solid rgba(33, 150, 243, 1);
     fill: #2196F3;
+    -o-transform: scaleY(1.2);
+  -ms-transform: scaleY(1.2);
+  -moz-transform: scaleY(1.2);
+  -webkit-transform: scaleY(1.2);
+  transform: scaleY(1.2);
+animation-timing-function: ease-out;
+animation-duration: 200ms;
+transition-duration:250ms;
+transition-timing-function:- cubic-bezier(0.4, 0, 0.2, 1); 
+
+
 }
 
 .item-svg {
@@ -701,6 +712,17 @@ figure.our-team-item {
     margin-left: 15px;
     background-color: rgb(53, 60, 69);
     border-radius: 30px;
+}
+.social-link:hover{
+    -o-transform: translateY(-20px);
+  -ms-transform: translateY(-20px);
+  -moz-transform: translateY(-20px);
+  -webkit-transform: translateY(-20px);  
+  transform: translateY(-20px);
+animation-duration: 0ms;
+transition-duration:250ms;
+transition-timing-function:- cubic-bezier(0.4, 0, 0.2, 1); 
+
 }
 
 .footer-svg {
