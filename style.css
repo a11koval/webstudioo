@@ -254,10 +254,18 @@ body {
     display: none;
 }
 
-.button-modal-list {
+.button-modal-done {
     width: 200px;
     height: 50px;
     margin-left: 156px;
+    border-radius: 4px;
+    background-color: #188CE8;
+    color: var(--font-color);
+    border: none;
+}
+.label-modal-link{
+    color: #2196F3;
+    text-decoration: none;
 }
 
 .svg-modal-icon:hover input {
