@@ -197,7 +197,7 @@ body {
     border-radius: 8px;
     width: 528px;
     height: 581px;
-    position: absolute;
+    position: relative;
     
     
     transition: transform 250ms cubic-bezier(0.470, 0.000, 0.745, 0.715);
@@ -238,7 +238,7 @@ body {
 
 
 .modal .close:hover {
-    color: var(--blue-color);
+    color: var(--logo-color);
 }
 
 .modal .button-modal-list {
@@ -248,7 +248,7 @@ body {
     border: none;
     font-size: 20px;
     cursor: pointer;
-    background-color: var(--blue-color);
+    background-color: var(--logo-color);
     color: #FFFFFF;
 }
 
@@ -279,8 +279,8 @@ body {
 }
 
 .checkbox-label a {
-    color: var(--blue-color);
-    border-bottom: 1px solid var(--blue-color);
+    color: var(--logo-color);
+    border-bottom: 1px solid var(--logo-color);
 }
 
 .is-hidden {
