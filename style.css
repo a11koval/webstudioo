@@ -342,10 +342,26 @@ textarea {
 .modal .close:hover {
     color: var(--logo-color);
 }
-.modal input:hover {
+.modal input:hover  {
     border-color: #2196F3;
 }
 .div-modal-icon-svg:hover .svg-modal-icon {
+    fill: #2196F3;
+}
+.svg-modal-icon{
+    width: 18px;
+    height: 18px;
+    fill: #212121;
+    position: absolute;
+    top: 22px;
+    left: 15px;
+    transform: translateY(-50%);
+    transition: fill 250ms var(--timing-function);
+}
+.div-modal-icon-svg-2:hover .svg-modal-icon {
+    fill: #2196F3;
+}
+.div-modal-icon-svg-3:hover .svg-modal-icon {
     fill: #2196F3;
 }
 .info {
