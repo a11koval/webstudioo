@@ -10,6 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
     rel="stylesheet">
   <link rel="stylesheet" href="normalize.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 
@@ -69,11 +70,15 @@
   <!-- main -->
   <main>
 
-    <section class="hero" id="hero">
+    <section class="hero"
+    data-aos="fade-up"
+    id="hero">
       <div class="container">
-        <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
+        <h1 class="hero-title"
+        data-aos="fade-left">Ефективні рішення для вашого бізнесу</h1>
         <div class="hero-modal">
-          <button data-modal-open class="hero-btn">Замовити послугу</button>
+          <button data-modal-open class="hero-btn"
+          data-aos="flip-right">Замовити послугу</button>
         </div>
 
        
@@ -795,6 +800,10 @@
       </div>
     </div>
   </div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
   <script src="./modal/modal.js"></script>
 </body>
 
