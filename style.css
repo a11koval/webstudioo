@@ -185,9 +185,7 @@ body {
     visibility: hidden;
     pointer-events: none
 }
-.is-hidden {
-    display: none;
-}
+
 .modal{
     position: relative;
     top: 50%;
