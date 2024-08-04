@@ -680,20 +680,21 @@ figure.our-team-item {
     justify-content: center;
     align-items: center;
     color: #AFB1B8;
-    transition: color 250ms, border 250ms;
+    
 }
 
 .item-svg {
-    border: 1px solid rgba(175, 177, 184, 1);
+    
     width: 170px;
     height: 92px;
+    transition: fill 250ms, border 250ms;
 
 }
 
 .item-svg:hover {
     border: 1px solid rgba(33, 150, 243, 1);
     fill: #2196F3;
-
+    transition: fill 250ms, border 250ms;
 
 }
 
